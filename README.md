@@ -1,1 +1,6 @@
-# My-Machine-learning-Journey
+MY name is Ernest Ampoma Kyei. I am currently on my journey to become a machine learning engineer.
+My original plan to achieve this goal is using the self-taught and mentorship mentorship method.
+From my perspective, in machine learning  data plays a vital role hence i believe every machine learning engineer must have some basic knowledge about how to handle data whether big or small. I also believe  that as machine learning engineer, one must also have some basic knowledge with it comes software engineering due to the fact that machine learning models are most of the created to be integrated into a software. And i also do not forget the fact that a machine learning engineer must also have good mathematics background.
+In order to achieve all that i have mentioned above, i am now studying microsoft Office excel 2021(from beginner to advance level) and later add some python data analysis libraries(pandas,numpy,seaborn,matplotlib) these areas will help know me how to handle data(big or small).About one having a good knowledge in software engineering i am currently offering a BSc. Software Engineering program at the university which also includes mathematics.
+From achieving these goals i will move directly to the machine leaning itself.
+This idea to some people currently looks over ambitious but i believe in atomic habits and in some years to come i will be able to achieve this and become a become an expert in machine learning.
