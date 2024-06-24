@@ -1,6 +1,18 @@
-MY name is Ernest Ampoma Kyei. I am currently on my journey to become a machine learning engineer.
-My original plan to achieve this goal is using the self-taught and mentorship mentorship method.
-From my perspective, in machine learning  data plays a vital role hence i believe every machine learning engineer must have some basic knowledge about how to handle data whether big or small. I also believe  that as machine learning engineer, one must also have some basic knowledge with it comes software engineering due to the fact that machine learning models are most of the created to be integrated into a software. And i also do not forget the fact that a machine learning engineer must also have good mathematics background.
-In order to achieve all that i have mentioned above, i am now studying microsoft Office excel 2021(from beginner to advance level) and later add some python data analysis libraries(pandas,numpy,seaborn,matplotlib) these areas will help know me how to handle data(big or small).About one having a good knowledge in software engineering i am currently offering a BSc. Software Engineering program at the university which also includes mathematics.
-From achieving these goals i will move directly to the machine leaning itself.
-This idea to some people currently looks over ambitious but i believe in atomic habits and in some years to come i will be able to achieve this and become a become an expert in machine learning.
+About Me
+My name is Ernest Ampoma Kyei. I am currently on a journey to become a machine learning engineer through self-study and mentorship.
+
+Goals and Learning Path
+Importance of Data
+In machine learning, data is crucial. I believe every machine learning engineer must have basic knowledge of data handling, both big and small.
+
+Software Engineering Knowledge
+Understanding software engineering is essential since machine learning models are often integrated into software. I am currently pursuing a BSc. in Software Engineering, which includes mathematics courses to support this knowledge.
+
+Mathematics
+A strong mathematics background is necessary for machine learning, which I am building through my university courses.
+
+Current Studies
+Microsoft Office Excel 2021: From beginner to advanced levels.
+Python Data Analysis Libraries: Learning Pandas, NumPy, Seaborn, and Matplotlib to handle data effectively.
+Future Plans
+Once I solidify my foundation in data handling and software engineering, I will focus on mastering machine learning itself. This journey may seem ambitious, but I believe in the power of incremental progress and am confident I will achieve expertise in machine learning in the coming years.
