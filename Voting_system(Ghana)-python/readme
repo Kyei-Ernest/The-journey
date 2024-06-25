@@ -1,0 +1,142 @@
+Overview of Files
+__init__.py: This file initializes the Voting_system package.
+age_calc.py: Contains functionality to calculate age based on a given date of birth.
+ballot_creation.py: Handles the creation of ballots for the voting system.
+mysql_delete.py: Provides functionality to delete records from a MySQL database.
+mysql_value_checker.py: Checks values in a MySQL database.
+prov_Ghcard_details.py: Handles provisional Ghana card details (possibly for voter identification).
+Registration.py: Manages voter registration processes.
+results_processing.py: Processes and tabulates voting results.
+schema.py: Defines the database schema for the voting system.
+voting.py: Contains the main logic for the voting process.
+
+
+
+# Voting System
+
+## Overview
+
+
+## Modules
+
+### `__init__.py`
+Initializes the `Voting_system` package and lists all the available modules.
+
+### `age_calc.py`
+This module contains functionality to calculate a person's age based on their date of birth.
+
+- **Function**:
+  - `calculate_age(dob)`:
+    - **Parameters**: 
+      - `dob (str)`: Date of birth in the format 'YYYY-MM-DD'.
+    - **Returns**: 
+      - `int`: Age in years.
+    - **Description**: 
+      - Parses the date of birth and computes the age by comparing it with the current date.
+
+### `ballot_creation.py`
+Handles the creation of ballots for the election process, ensuring each candidate is properly listed.
+
+- **Function**:
+  - `create_ballot(candidate_list)`:
+    - **Parameters**: 
+      - `candidate_list (list)`: List of candidates participating in the election.
+    - **Returns**: 
+      - `dict`: A dictionary representing the ballot where keys are candidate names and values are initialized to zero.
+    - **Description**: 
+      - Initializes a ballot with each candidate's name and a vote count starting at zero.
+
+### `mysql_delete.py`
+Provides functionality to delete specific records from a MySQL database based on given conditions.
+
+- **Function**:
+  - `delete_record(table, condition)`:
+    - **Parameters**: 
+      - `table (str)`: Name of the table from which records are to be deleted.
+      - `condition (str)`: SQL condition to specify which records to delete.
+    - **Description**: 
+      - Connects to the MySQL database, executes the delete command based on the condition, and commits the transaction.
+
+### `mysql_value_checker.py`
+Checks if specific values exist within a MySQL database table.
+
+- **Function**:
+  - `check_value(table, column, value)`:
+    - **Parameters**: 
+      - `table (str)`: Name of the table.
+      - `column (str)`: Name of the column.
+      - `value (str)`: Value to check.
+    - **Returns**: 
+      - `bool`: True if the value exists, False otherwise.
+    - **Description**: 
+      - Connects to the MySQL database and performs a query to check if the specified value exists in the given column.
+
+### `post_election_analysis.py`
+Analyzes the results of an election after voting has concluded, providing insights into the outcome.
+
+- **Function**:
+  - `analyze_results(results)`:
+    - **Parameters**: 
+      - `results (dict)`: Dictionary containing election results where keys are candidate names and values are vote counts.
+    - **Returns**: 
+      - `dict`: Analysis of the results showing each candidate's percentage of the total votes.
+    - **Description**: 
+      - Calculates the percentage of total votes each candidate received, providing a clear analysis of the election outcome.
+
+### `prov_Ghcard_details.py`
+Handles provisional Ghana card details, which may be used for voter identification and verification.
+
+- **Function**:
+  - `get_ghcard_details(voter_id)`:
+    - **Parameters**: 
+      - `voter_id (str)`: Voter ID.
+    - **Returns**: 
+      - `dict`: Ghana card details including name, date of birth, and address.
+    - **Description**: 
+      - Retrieves and returns provisional Ghana card details for a given voter ID.
+
+### `Registration.py`
+Manages the voter registration process, ensuring that all necessary details are collected and stored.
+
+- **Function**:
+  - `register_voter(voter_details)`:
+    - **Parameters**: 
+      - `voter_details (dict)`: Dictionary containing voter details such as name, date of birth, and address.
+    - **Returns**: 
+      - `bool`: True if registration is successful, False otherwise.
+    - **Description**: 
+      - Processes the provided voter details and registers the voter, typically by storing the information in a database.
+
+### `results_processing.py`
+Processes and tabulates voting results from multiple ballots to determine the outcome of the election.
+
+- **Function**:
+  - `process_results(ballots)`:
+    - **Parameters**: 
+      - `ballots (list)`: List of ballots where each ballot is a dictionary with candidate names as keys and vote counts as values.
+    - **Returns**: 
+      - `dict`: Dictionary containing the aggregated election results with total votes for each candidate.
+    - **Description**: 
+      - Aggregates votes from all ballots to calculate the total number of votes each candidate received.
+
+### `schema.py`
+Defines the database schema necessary for the voting system, including tables for voters, candidates, and votes.
+
+- **Function**:
+  - `create_schema()`:
+    - **Description**: 
+      - Provides the SQL commands needed to create the database schema for the voting system. This includes tables for voters, candidates, and votes, along with their relationships.
+
+### `voting.py`
+Contains the main logic for the voting process, ensuring that votes are correctly cast and recorded.
+
+- **Function**:
+  - `cast_vote(voter_id, candidate_id)`:
+    - **Parameters**: 
+      - `voter_id (int)`: ID of the voter.
+      - `candidate_id (int)`: ID of the candidate being voted for.
+    - **Returns**: 
+      - `bool`: True if the vote is cast successfully, False otherwise.
+    - **Description**: 
+      - Records a vote for a given candidate by a specified voter, typically involving database operations to store the vote.
+
