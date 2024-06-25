@@ -1,17 +1,17 @@
-About Me
+About Me  
 My name is Ernest Ampoma Kyei. I am currently on a journey to become a machine learning engineer through self-study and mentorship.
 
-Goals and Learning Path
-Importance of Data
+**Goals and Learning Path**  
+Importance of Data  
 In machine learning, data is crucial. I believe every machine learning engineer must have basic knowledge of data handling, both big and small.
 
-Software Engineering Knowledge
+Software Engineering Knowledge  
 Understanding software engineering is essential since machine learning models are often integrated into software. I am currently pursuing a BSc. in Software Engineering, which includes mathematics courses to support this knowledge.
 
-Mathematics
+Mathematics  
 A strong mathematics background is necessary for machine learning, which I am building through my university courses.
 
-Current Studies
+Current Studies  
 Microsoft Office Excel 2021: From beginner to advanced levels.
 Python Data Analysis Libraries: Learning Pandas, NumPy, Seaborn, and Matplotlib to handle data effectively.
 Future Plans
