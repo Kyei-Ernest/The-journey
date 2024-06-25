@@ -7,15 +7,13 @@ mysql_value_checker.py: Checks values in a MySQL database.
 prov_Ghcard_details.py: Handles provisional Ghana card details (possibly for voter identification).
 Registration.py: Manages voter registration processes.
 results_processing.py: Processes and tabulates voting results.
-schema.py: Defines the database schema for the voting system.
+schema.py: Defines the database(MySQL) schema for the voting system.
 voting.py: Contains the main logic for the voting process.
 
-
+NB:All these files are connected to a MYsql database(Which means you will need a MYsql database to run these files successsfully).
+   First of all make sure to setup your your database(MYsql) and run the schema.py file in order to create the database needed for the voting system.
 
 # Voting System
-
-## Overview
-
 
 ## Modules
 
