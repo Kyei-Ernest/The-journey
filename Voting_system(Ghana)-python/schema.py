@@ -64,17 +64,6 @@ for db in database_list:
         break
     else:
         try:
-
-            # Connect to the database
-            mydb = mysql.connector.connect(
-                host="127.0.0.1",
-                user="root",
-                password="admin123",
-                database=None
-            )
-
-            cursor = mydb.cursor()
-
             # Create database if it doesn't exist
             cursor.execute(f"CREATE DATABASE  {dbname} CHARACTER SET utf8 COLLATE utf8_general_ci;")
 
