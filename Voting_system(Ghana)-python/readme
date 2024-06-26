@@ -80,8 +80,9 @@ Provides functionality to delete specific records from a MySQL database based on
 Checks if specific values exist within a MySQL database table.
 
 - **Function**:
-  - `check_value(table, column, value)`:
+  - `check_value_exists(db_config, table, column, user_input)`:
     - **Parameters**: 
+      - 'db_config (dic)': configuration for the database. 
       - `table (str)`: Name of the table.
       - `column (str)`: Name of the column.
       - `value (str)`: Value to check.
@@ -90,29 +91,10 @@ Checks if specific values exist within a MySQL database table.
     - **Description**: 
       - Connects to the MySQL database and performs a query to check if the specified value exists in the given column.
 
-### `post_election_analysis.py`
-Analyzes the results of an election after voting has concluded, providing insights into the outcome.
-
-- **Function**:
-  - `analyze_results(results)`:
-    - **Parameters**: 
-      - `results (dict)`: Dictionary containing election results where keys are candidate names and values are vote counts.
-    - **Returns**: 
-      - `dict`: Analysis of the results showing each candidate's percentage of the total votes.
-    - **Description**: 
-      - Calculates the percentage of total votes each candidate received, providing a clear analysis of the election outcome.
-
 ### `prov_Ghcard_details.py`
-Handles provisional Ghana card details, which may be used for voter identification and verification.
-
-- **Function**:
-  - `get_ghcard_details(voter_id)`:
-    - **Parameters**: 
-      - `voter_id (str)`: Voter ID.
-    - **Returns**: 
-      - `dict`: Ghana card details including name, date of birth, and address.
-    - **Description**: 
-      - Retrieves and returns provisional Ghana card details for a given voter ID.
+Handles provisional Ghana card details, which may be used for voter identification and verification. This is a way to help test or use the program since i donnot 
+have access to the Ghana Card details database. You can feel free to make a lot of changes to the data or the module in general just to make it more realistic unless 
+you have access to the original database.
 
 ### `Registration.py`
 Manages the voter registration process, ensuring that all necessary details are collected and stored.
@@ -140,11 +122,6 @@ Processes and tabulates voting results from multiple ballots to determine the ou
 
 ### `schema.py`
 Defines the database schema necessary for the voting system, including tables for voters, candidates, and votes.
-
-- **Function**:
-  - `create_schema()`:
-    - **Description**: 
-      - Provides the SQL commands needed to create the database schema for the voting system. This includes tables for voters, candidates, and votes, along with their relationships.
 
 ### `voting.py`
 Contains the main logic for the voting process, ensuring that votes are correctly cast and recorded.
