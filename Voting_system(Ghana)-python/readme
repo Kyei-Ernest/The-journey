@@ -12,6 +12,12 @@ voting.py: Contains the main logic for the voting process.
 
 NB:All these files are connected to a MYsql database(Which means you will need a MYsql database to run these files successsfully).
    First of all make sure to setup your your database(MYsql) and run the schema.py file in order to create the database needed for the voting system.
+# Steps
+* Run schema.py to create the database structure required for the voting system( note that the database name you use
+  must be used across all the other modules) 
+* Execute the "start_other_registration()" function [register the presidential_candidate,the constituencies and the member_of_parliament(take note of the 
+  order stated and do same)]. After you can execute the "start_voter_registration()" function to register voters.
+* User can then cast votes using the voting module
 
 # Voting System
 
