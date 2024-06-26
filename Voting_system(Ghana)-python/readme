@@ -59,12 +59,22 @@ Handles the creation of ballots for the election process, ensuring each candidat
 Provides functionality to delete specific records from a MySQL database based on given conditions.
 
 - **Function**:
-  - `delete_record(table, condition)`:
+  - `delete_column(db_config, table, column)`:
     - **Parameters**: 
-      - `table (str)`: Name of the table from which records are to be deleted.
-      - `condition (str)`: SQL condition to specify which records to delete.
+      - 'db_config (dic)': configuration for the database. 
+      - `table (str)`: Name of the table from which the column is to be deleted.
+      - `column (str)`: name of column to be deleted.
     - **Description**: 
-      - Connects to the MySQL database, executes the delete command based on the condition, and commits the transaction.
+      - Connects to the MySQL database, executes the delete command based on the tabel and column to be, and commits the transaction.
+- **Function**:
+    - `delete_row(db_config, table, condition)`:
+       - **Parameters**: 
+         - 'db_config (dic)': configuration for the database. 
+         - `table (str)`: Name of the table from which records are to be deleted.
+         - `condition (str)`: SQL condition to specify which records to delete.
+       - **Description**: 
+         - Connects to the MySQL database, executes the delete command based on the condition, and commits the transaction.
+
 
 ### `mysql_value_checker.py`
 Checks if specific values exist within a MySQL database table.
