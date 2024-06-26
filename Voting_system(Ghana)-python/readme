@@ -42,13 +42,18 @@ This module contains functionality to calculate a person's age based on their da
 Handles the creation of ballots for the election process, ensuring each candidate is properly listed.
 
 - **Function**:
-  - `create_ballot(candidate_list)`:
-    - **Parameters**: 
-      - `candidate_list (list)`: List of candidates participating in the election.
+  - display_presidents()`:
     - **Returns**: 
-      - `dict`: A dictionary representing the ballot where keys are candidate names and values are initialized to zero.
+      - The list of presidential candidates to be voted for.
     - **Description**: 
-      - Initializes a ballot with each candidate's name and a vote count starting at zero.
+      - Initializes a ballot with each candidate's name and id.
+- **Function**:
+  - display_mp()`:
+    - **Returns**: 
+      - The list of mp candidates to be voted for.
+    - **Description**: 
+      - Initializes a ballot with each candidate's name and id for the voter's constituency.
+
 
 ### `mysql_delete.py`
 Provides functionality to delete specific records from a MySQL database based on given conditions.
