@@ -98,15 +98,21 @@ you have access to the original database.
 
 ### `Registration.py`
 Manages the voter registration process, ensuring that all necessary details are collected and stored.
+**Classes**:
+- 'RegisterVoter':
+   This class contains all the processes a voter info must go through before finally making ot to the database.
+-'RegisterPresident':
+   This class contains all the processes a presidential candidate info must go through before finally making ot to the database.
+-'RegisterMP(RegisterPresident)':
+   This inherits some parameters from the 'RegisterPresident' class.
+   This class contains all the processes an MP candidate info must go through before finally making ot to the database.
 
 - **Function**:
-  - `register_voter(voter_details)`:
-    - **Parameters**: 
-      - `voter_details (dict)`: Dictionary containing voter details such as name, date of birth, and address.
-    - **Returns**: 
-      - `bool`: True if registration is successful, False otherwise.
+  - `start_other_registration()`:
     - **Description**: 
-      - Processes the provided voter details and registers the voter, typically by storing the information in a database.
+      - This function allows the user to register the presidential candidate,constittuency and the mp candidate.
+  - 'start_voter_registration_process()';
+      - This function is allows the voter to enter and register their details.
 
 ### `results_processing.py`
 Processes and tabulates voting results from multiple ballots to determine the outcome of the election.
