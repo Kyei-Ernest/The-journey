@@ -4,7 +4,8 @@ import mysql.connector
 conn = mysql.connector.connect(host="127.0.0.1", user="root", password="admin123", database="mydb")
 cur = conn.cursor()
 
-
+table = ''
+# count votes for each presidential candidate
 def president_vote_count():
     try:
         # Query to select all president IDs from the presidents table
@@ -42,11 +43,6 @@ def president_vote_count():
         conn.rollback()
         # Log the error (print statement used here, but consider using logging framework)
         print(f"An error occurred: {e}")
-
-    finally:
-        # Ensure that the cursor and connection are closed properly
-        cur.close()
-        conn.close()
 
 
 def create_table_if_not_exists(table_name):
@@ -149,6 +145,7 @@ def mp_vote_count():
         results = cur.fetchall()
 
         for row in results:
+            global table
             table = row[0]
             create_table_if_not_exists(table)
 
@@ -159,7 +156,31 @@ def mp_vote_count():
             for row_3 in result_1:
                 insert_vcounts_into_table(table, row_3[0])
 
-        print("MP vote counting completed successfully.")
+
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
+
+
+
+
+def display_results():
+    try:
+        print(f'\n-Presidential vote results ')
+        # fetch presidential results from database
+        pres_query = "SELECT * FROM presidents"
+        cur.execute(pres_query)
+        pres_results = cur.fetchall()
+        for LIST in pres_results:
+            print(f'{LIST[0]}   |{LIST[1]}  - {LIST[2]}   |{LIST[3]}| - {LIST[4]}')
+
+        mp_vote_count()
+        print(f'\n-MP vote results for {table} constituency')
+        # fetch mp results from database
+        mp_query = f"SELECT * FROM {table}"
+        cur.execute(mp_query)
+        mp_results = cur.fetchall()
+        for LIST in mp_results:
+            print(f'{LIST[0]}   |{LIST[1]}  - |{LIST[2]}|')
 
     except mysql.connector.Error as err:
         print(f"Error: {err}")
@@ -170,5 +191,4 @@ def mp_vote_count():
         conn.close()
 
 
-# president_vote_count()
-# mp_vote_count()
+
