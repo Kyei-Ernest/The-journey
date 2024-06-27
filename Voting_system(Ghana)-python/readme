@@ -112,6 +112,7 @@ Manages the voter registration process, ensuring that all necessary details are 
     - **Description**: 
       - This function allows the user to register the presidential candidate,constittuency and the mp candidate.
   - 'start_voter_registration_process()';
+    - **Description**: 
       - This function is allows the voter to enter and register their details.
 
 ### `results_processing.py`
@@ -122,8 +123,10 @@ Processes and tabulates voting results from multiple ballots to determine the ou
     - **Description**: 
       - Fetches the results stored in the database and display it to the user.
   - 'president_vote_count()':
+    - **Description**: 
       - Counts the votes of each president and its percentages and store.
   - 'mp_vote_count()':
+    - **Description**: 
       - Counts the votes for each mp candidate in every constituency and store.
 
 ### `schema.py`
