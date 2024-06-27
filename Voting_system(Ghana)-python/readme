@@ -121,6 +121,10 @@ Processes and tabulates voting results from multiple ballots to determine the ou
   - `display_results()':
     - **Description**: 
       - Fetches the results stored in the database and display it to the user.
+  - 'president_vote_count()':
+      - Counts the votes of each president and its percentages and store.
+  - 'mp_vote_count()':
+      - Counts the votes for each mp candidate in every constituency and store.
 
 ### `schema.py`
 Defines the database schema necessary for the voting system, including tables for voters, candidates, and votes.
