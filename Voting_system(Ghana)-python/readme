@@ -118,13 +118,9 @@ Manages the voter registration process, ensuring that all necessary details are 
 Processes and tabulates voting results from multiple ballots to determine the outcome of the election.
 
 - **Function**:
-  - `process_results(ballots)`:
-    - **Parameters**: 
-      - `ballots (list)`: List of ballots where each ballot is a dictionary with candidate names as keys and vote counts as values.
-    - **Returns**: 
-      - `dict`: Dictionary containing the aggregated election results with total votes for each candidate.
+  - `display_results()':
     - **Description**: 
-      - Aggregates votes from all ballots to calculate the total number of votes each candidate received.
+      - Fetches the results stored in the database and display it to the user.
 
 ### `schema.py`
 Defines the database schema necessary for the voting system, including tables for voters, candidates, and votes.
