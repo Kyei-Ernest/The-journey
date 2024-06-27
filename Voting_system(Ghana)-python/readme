@@ -133,12 +133,9 @@ Defines the database schema necessary for the voting system, including tables fo
 Contains the main logic for the voting process, ensuring that votes are correctly cast and recorded.
 
 - **Function**:
-  - `cast_vote(voter_id, candidate_id)`:
-    - **Parameters**: 
-      - `voter_id (int)`: ID of the voter.
-      - `candidate_id (int)`: ID of the candidate being voted for.
+  - `display_poll()`:
     - **Returns**: 
-      - `bool`: True if the vote is cast successfully, False otherwise.
+      - Returns the list of candidates in order for candidates to choose their choice.
     - **Description**: 
       - Records a vote for a given candidate by a specified voter, typically involving database operations to store the vote.
 
