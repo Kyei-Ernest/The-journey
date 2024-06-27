@@ -28,7 +28,7 @@ def display_presidents():
         print(f"An unexpected error occurred: {e}")
 
 
-def file_existence_and_mpdisplay(voter_id):
+def display_mp(voter_id):
     """Check the existence of the voter file and display MPs for the voter's constituency."""
     try:
         # Define the database table and column to check for voter ID
