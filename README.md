@@ -16,3 +16,5 @@ Microsoft Office Excel 2021: From beginner to advanced levels.
 Python Data Analysis Libraries: Learning Pandas, NumPy, Seaborn, and Matplotlib to handle data effectively.
 Future Plans
 Once I solidify my foundation in data handling and software engineering, I will focus on mastering machine learning itself. This journey may seem ambitious, but I believe in the power of incremental progress and am confident I will achieve expertise in machine learning in the coming years.
+
+I am open to internships right now and you can contact me through my email. "ernestkyei101@gmail.com"
