@@ -21,6 +21,7 @@ int main(){
     int i = 0;
     int array_length;
 
+    //Allow operator to accept n numbers until user enters = for final result or press c to cancel.
     while (true){
         cout << "Enter "<<positions[i]<< "number: "<<endl;
         cin >>number;
