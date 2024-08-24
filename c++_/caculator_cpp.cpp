@@ -1,3 +1,5 @@
+/*This a simple calculator program that allows user to choose an operation and enter
+ any number of variables to be operated on. (No fixed number of variables)*/
 #include <iostream>
 
 using namespace std;
