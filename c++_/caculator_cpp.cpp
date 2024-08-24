@@ -15,10 +15,9 @@ int main(){
     cout << "3. Division"<< endl;
     cout << "4. Multiplication"<<endl;
     cin >> operator_choice;
-    cout<< "IF you want to exit at any point type 'c' or 'C' and press enter"<<endl;
     cout<< "Enter number and press enter"<<endl;
-    cout<<" AFTER ENTRING YOUR PREFERED NUMBERS ENTER EQUAL TO AND PRESS ENTER"<<endl;
-
+    cout<<" AFTER ENTERING YOUR PREFERED NUMBERS ENTER '=' IN THE NEXT REQUEST  AND PRESS ENTER"<<endl;
+    cout<< "IF you want to exit at any point type 'c'and press enter"<<endl;
     int i = 0;
     int array_length;
 
