@@ -1,4 +1,4 @@
-Ernest Ampoma Kyei  
+Ernest Kyei  
 Aspiring Machine Learning Engineer | Now focused on becoming a Software Engineer(in Progress)  
 
 About Me  
