@@ -1,23 +1,26 @@
-My name is Ernest Ampoma Kyei. I am currently on a journey to become a machine learning engineer through self-study and mentorship.
+Ernest Ampoma Kyei  
+Aspiring Machine Learning Engineer | Now focused on becoming a Software Engineer(in Progress)  
 
-Goals and Learning Path  
-Importance of Data  
-In machine learning, data is crucial. I believe every machine learning engineer must have basic knowledge of data handling, both big and small.
+About Me  
+I am on a structured journey to become a Machine Learning Engineer, advancing step by step through software engineering and data handling before fully diving into ML.My approach is based on incremental progress, ensuring I build a solid foundation before moving forward.  
 
-Software Engineering Knowledge  
-Understanding software engineering is essential since machine learning models are often integrated into software. I am currently pursuing a BSc. in Software Engineering, which includes mathematics courses to support this knowledge.
+ Current Focus  
+- BSc. in Software Engineering – Building a strong foundation in programming, system design, and mathematics.  
+- Microsoft Excel 2021 – Advancing from beginner to expert-level proficiency.  
+- Python for Data Analysis – Learning Pandas, NumPy, Seaborn, and Matplotlib to work with data effectively.  
 
-Mathematics  
-A strong mathematics background is necessary for machine learning, which I am building through my university courses.
+Why Software Engineering First?  
+I believe understanding software engineering is essential for machine learning, as ML models are often integrated into applications. Mastering coding principles, system design, and algorithms will prepare me to develop scalable and efficient ML solutions.  
 
-Current Studies  
-Microsoft Office Excel 2021: From beginner to advanced levels.
-Python Data Analysis Libraries: Learning Pandas, NumPy, Seaborn, and Matplotlib to handle data effectively.
-Future Plans
-Once I solidify my foundation in data handling and software engineering, I will focus on mastering machine learning itself. This journey may seem ambitious, but I believe in the power of incremental progress and am confident I will achieve expertise in machine learning in the coming years.
+Future Goals  
+Once I strengthen my skills in software engineering and data handling, I will fully transition into:  
+* Machine Learning & AI Development  
+* Advanced Data Science Techniques  
+_ Building and Deploying ML Models  
 
-I am open to internships right now and you can contact me through my email. "ernestkyei101@gmail.com"
+ Lets Connect: Email: ernestkyei101@gmail.com 
+  
+🎓 FreeCodeCamp: [My Profile](https://www.freecodecamp.org/kookyei)  
 
-freecodecamp: https://www.freecodecamp.org/kookyei
-
-[update(20/02/2025): Road has been really bumpy not as i expected but i beleieve its all part of the journey. Hoping to see better days ahead so far as i put in the work]
+Progress Update (Feb 20, 2025)  
+The journey has been bumpier than expected, but I see it as part of the process. As long as I put in the work, I trust that better days lie ahead.  
