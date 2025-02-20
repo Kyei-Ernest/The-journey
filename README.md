@@ -16,7 +16,7 @@ Future Goals
 Once I strengthen my skills in software engineering and data handling, I will fully transition into:  
 * Machine Learning & AI Development  
 * Advanced Data Science Techniques  
-_ Building and Deploying ML Models  
+* Building and Deploying ML Models  
 
  Lets Connect: Email: ernestkyei101@gmail.com 
   
